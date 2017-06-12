@@ -17,7 +17,7 @@ class PizzasController < ApplicationController
       pizza_hash.push({date: pizza_date, type: pizza_type})
     end
 
-    {pizza: pizza_hash}
+    { pizza: pizza_hash }
   end
 
   def index
